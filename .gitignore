@@ -1,0 +1,42 @@
+# --- General OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Python cache / virtual envs ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pkl.zip
+*.egg-info/
+.env/
+.venv/
+env/
+venv/
+
+# --- Jupyter Notebook junk ---
+.ipynb_checkpoints/
+
+# --- Data files (ignore large/raw data, keep small CSVs you want) ---
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# --- PDF files ---
+*.pdf
+!ST239 Report - u5552234.pdf   # Keep only this one report
+
+# --- Build / logs ---
+*.log
+*.out
+*.aux
+*.toc
+*.gz
+*.zip
+
+# --- IDE/editor specific ---
+.vscode/
+.idea/
+*.swp
